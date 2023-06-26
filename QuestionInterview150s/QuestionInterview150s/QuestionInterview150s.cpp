@@ -1,11 +1,36 @@
 ﻿// QuestionInterview150s.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+// https://leetcode.com/problem-list/top-interview-questions/
 //
 
 #include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <algorithm>
+#include <iomanip>
+using namespace std;
+
+struct City {
+    string name;
+    double population;
+};
+// compare City by population
+bool cmpfnc(const City& a, const City& b) {
+    return a.population < b.population;
+}
+
+void testvecmap() {
+    vector<City> vCity = { {"city 1", 140000}, {"city 2", 100000},{"city 3", 700000},{"city 4", 500000} };
+    //lambda expression
+    sort(vCity.begin(), vCity.end(), [](const City& a, const City& b) {return a.population < b.population; });
+    for (auto c : vCity) {
+        cout << "City name: " << c.name << " population: " << c.population << endl;
+    }
+}
 
 int main()
 {
-    std::cout << "Top 150 LeetCode Interview Questions !\n";
+    std::cout << "Top 150 LeetCode Questions !\n";
+    testvecmap();
     return 0;
 }
 
