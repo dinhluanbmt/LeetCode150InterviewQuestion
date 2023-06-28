@@ -27,10 +27,27 @@ void testvecmap() {
     }
 }
 
+class CountObject {
+    static int count; //declare share data
+public:
+    CountObject() {
+        count++;
+    }
+    //static method, can be used without instantiating an object of the CountObject class
+    static int getCount() {
+        return count;
+    }
+};
+//need to define and initilize value
+int CountObject::count = 0;
+
 int main()
 {
+    CountObject a, b, c;
+    cout << "nums of created objects : " << CountObject::getCount() << endl;
+
     std::cout << "Top 150 LeetCode Questions !\n";
-    testvecmap();
+    //testvecmap();
     return 0;
 }
 
