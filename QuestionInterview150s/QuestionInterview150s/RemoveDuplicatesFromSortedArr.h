@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 // 26. Remove Duplicates from Sorted Array
@@ -22,6 +23,15 @@ public:
                 nums[pos] = nums[i];
             }
         }
+        // even  we can really erase it
+        //nums.erase(nums.begin() + pos + 1, nums.end());
         return pos + 1;
     }
+    //or just use std::unique
+    int removeDuplicates_unique(vector<int>& nums) {
+        nums.erase(unique(nums.begin(), nums.end()), nums.end());
+        return nums.size();
+    }
 };
+
+// 

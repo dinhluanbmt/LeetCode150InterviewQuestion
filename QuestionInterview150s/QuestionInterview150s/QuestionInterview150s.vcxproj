@@ -145,13 +145,13 @@
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="FindIndexFirstOccurenceInString.h" />
+    <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="LetterCombinationsOfaPhoneNumber.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstrWithoutRepeatChar.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedArr.h" />
-    <ClInclude Include="RemoveDuplicatesFromSortedArray.h" />
     <ClInclude Include="RemoveNthNodeFromEndofList.h" />
     <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="RomanToInteger.h" />

@@ -65,10 +65,10 @@
     <ClInclude Include="MergeTwoSortedLists.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="RemoveDuplicatesFromSortedArray.h">
+    <ClInclude Include="FindIndexFirstOccurenceInString.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="FindIndexFirstOccurenceInString.h">
+    <ClInclude Include="GenerateParentheses.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
