@@ -16,3 +16,8 @@ top leetcode 150 interview questions
 19. Remove Nth Node From End of List
 20. Valid Parentheses
 21. Merge Two Sorted Lists
+22. Generate Parentheses
+23. Merge k Sorted Lists (hard - not solved yet)
+26. Remove Duplicates from Sorted Array
+28. Find the Index of the First Occurrence in a String
+29. Divide Two Integers
