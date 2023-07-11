@@ -21,7 +21,7 @@ top leetcode 150 interview questions
 26. Remove Duplicates from Sorted Array
 28. Find the Index of the First Occurrence in a String
 29. Divide Two Integers
-30. 33. Search in Rotated Sorted Array
+30. Search in Rotated Sorted Array
 34. Find First and Last Position of Element in sorted array
 36. Valid Sudoku
 38. Count And Say
