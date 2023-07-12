@@ -25,3 +25,7 @@ top leetcode 150 interview questions
 34. Find First and Last Position of Element in sorted array
 36. Valid Sudoku
 38. Count And Say
+39. Permutations
+48. Rotate Image
+49. Group Anagrams
+50. Pow(x,n)
