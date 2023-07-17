@@ -29,6 +29,6 @@ top leetcode 150 interview questions
 48. Rotate Image
 49. Group Anagrams
 50. Pow(x,n)
-51. Maximum Subarray
-54. Spiral Matrix
-55 Jump Game
+51. Maximum Subarray.
+54. Spiral Matrix.
+55 Jump Game.
