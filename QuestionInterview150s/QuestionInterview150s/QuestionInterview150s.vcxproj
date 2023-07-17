@@ -145,13 +145,16 @@
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="CountAndSay.h" />
+    <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="FindIndexFirstOccurenceInString.h" />
     <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="GroupAnagrams.h" />
+    <ClInclude Include="JumpGame.h" />
     <ClInclude Include="LetterCombinationsOfaPhoneNumber.h" />
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstrWithoutRepeatChar.h" />
+    <ClInclude Include="MaximumSubArray.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="PowXN.h" />
@@ -161,6 +164,7 @@
     <ClInclude Include="RomanToInteger.h" />
     <ClInclude Include="RotateImage.h" />
     <ClInclude Include="SearchInRotatedSortedArray.h" />
+    <ClInclude Include="SpiralMatrix.h" />
     <ClInclude Include="StringToInteger.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />

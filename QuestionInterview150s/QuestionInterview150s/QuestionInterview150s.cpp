@@ -41,10 +41,25 @@ public:
 //need to define and initilize value
 int CountObject::count = 0;
 
+bool jump(vector<int>& nums, int pos) {
+    if (pos == nums.size() - 1) return true;
+    if (nums[pos] + pos >= nums.size() - 1) return true;
+    if (nums[pos] == 0) return false;
+    for (int i = 1; i <= nums[pos]; i++) {
+        bool ret = jump(nums, pos + i);
+        if (ret) return ret;
+    }
+    return false;
+}
+bool canJump(vector<int>& nums) {
+    bool ret = jump(nums, 0);
+    return ret;
+}
+
 int main()
 {
-    CountObject a, b, c;
-    cout << "nums of created objects : " << CountObject::getCount() << endl;
+    vector<int> iV = { 3,0,8,2,0,0,1 };
+    canJump(iV);
 
     std::cout << "Top 150 LeetCode Questions !\n";
     //testvecmap();

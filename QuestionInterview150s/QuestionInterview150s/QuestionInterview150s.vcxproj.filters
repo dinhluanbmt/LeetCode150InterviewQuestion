@@ -92,5 +92,17 @@
     <ClInclude Include="PowXN.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="DivideTwoIntegers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximumSubArray.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiralMatrix.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
