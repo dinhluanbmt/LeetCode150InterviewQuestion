@@ -104,5 +104,17 @@
     <ClInclude Include="JumpGame.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="MergeIntervals.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UniquePaths.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusOne.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqrt_X.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

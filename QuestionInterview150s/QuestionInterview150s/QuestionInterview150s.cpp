@@ -56,10 +56,30 @@ bool canJump(vector<int>& nums) {
     return ret;
 }
 
+int mySqrt(int x) {
+    long long s, end, mid;
+    s = 0;
+    end = x;
+    long long ret =0;
+    long long tem;
+    while (s <= end) {
+        mid = (s + end) / 2;
+        tem = mid * mid;
+        if (tem == x) return mid;
+        if (tem < x) {
+            ret = mid;
+            s = mid + 1;
+        }
+        else
+            end = mid - 1;
+    }
+    return (int)ret;
+}
+
 int main()
 {
-    vector<int> iV = { 3,0,8,2,0,0,1 };
-    canJump(iV);
+    int val = 36;
+    int ret = mySqrt(val);
 
     std::cout << "Top 150 LeetCode Questions !\n";
     //testvecmap();

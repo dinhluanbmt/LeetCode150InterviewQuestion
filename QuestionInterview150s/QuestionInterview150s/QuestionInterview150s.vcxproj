@@ -155,8 +155,10 @@
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstrWithoutRepeatChar.h" />
     <ClInclude Include="MaximumSubArray.h" />
+    <ClInclude Include="MergeIntervals.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="Permutations.h" />
+    <ClInclude Include="PlusOne.h" />
     <ClInclude Include="PowXN.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedArr.h" />
     <ClInclude Include="RemoveNthNodeFromEndofList.h" />
@@ -165,9 +167,11 @@
     <ClInclude Include="RotateImage.h" />
     <ClInclude Include="SearchInRotatedSortedArray.h" />
     <ClInclude Include="SpiralMatrix.h" />
+    <ClInclude Include="Sqrt_X.h" />
     <ClInclude Include="StringToInteger.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
+    <ClInclude Include="UniquePaths.h" />
     <ClInclude Include="ValidParentheses.h" />
     <ClInclude Include="ValidSudoku.h" />
   </ItemGroup>
