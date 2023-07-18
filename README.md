@@ -32,3 +32,7 @@ top leetcode 150 interview questions
 51. Maximum Subarray.
 54. Spiral Matrix.
 55 Jump Game.
+56. Merge Intervals
+62. UniquePaths
+66. Plus one
+69. Sqrt(x)
