@@ -116,5 +116,17 @@
     <ClInclude Include="Sqrt_X.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="ClimbingStairs.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SetMatrixZeroes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SortColors.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WordSearch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

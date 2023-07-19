@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="CountAndSay.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
@@ -166,6 +167,8 @@
     <ClInclude Include="RomanToInteger.h" />
     <ClInclude Include="RotateImage.h" />
     <ClInclude Include="SearchInRotatedSortedArray.h" />
+    <ClInclude Include="SetMatrixZeroes.h" />
+    <ClInclude Include="SortColors.h" />
     <ClInclude Include="SpiralMatrix.h" />
     <ClInclude Include="Sqrt_X.h" />
     <ClInclude Include="StringToInteger.h" />
@@ -174,6 +177,7 @@
     <ClInclude Include="UniquePaths.h" />
     <ClInclude Include="ValidParentheses.h" />
     <ClInclude Include="ValidSudoku.h" />
+    <ClInclude Include="WordSearch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
