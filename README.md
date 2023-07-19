@@ -36,3 +36,7 @@ top leetcode 150 interview questions
 62. UniquePaths
 66. Plus one
 69. Sqrt(x)
+70. Climbing Stairs
+73. Set Matrix Zeroes
+75. Sort Colors
+79. Word Search
