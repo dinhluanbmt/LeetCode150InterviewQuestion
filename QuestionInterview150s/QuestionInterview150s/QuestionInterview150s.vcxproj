@@ -143,9 +143,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="BinaryTreeInorderTraversal.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="CountAndSay.h" />
+    <ClInclude Include="DecodeWays.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="FindIndexFirstOccurenceInString.h" />
     <ClInclude Include="GenerateParentheses.h" />
@@ -157,6 +159,7 @@
     <ClInclude Include="LongestSubstrWithoutRepeatChar.h" />
     <ClInclude Include="MaximumSubArray.h" />
     <ClInclude Include="MergeIntervals.h" />
+    <ClInclude Include="MergeSortedArray.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="PlusOne.h" />
@@ -172,9 +175,11 @@
     <ClInclude Include="SpiralMatrix.h" />
     <ClInclude Include="Sqrt_X.h" />
     <ClInclude Include="StringToInteger.h" />
+    <ClInclude Include="Subsets.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UniquePaths.h" />
+    <ClInclude Include="ValidateBinarySearchTree.h" />
     <ClInclude Include="ValidParentheses.h" />
     <ClInclude Include="ValidSudoku.h" />
     <ClInclude Include="WordSearch.h" />

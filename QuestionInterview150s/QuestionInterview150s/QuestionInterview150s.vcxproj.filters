@@ -128,5 +128,20 @@
     <ClInclude Include="WordSearch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Subsets.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSortedArray.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeInorderTraversal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidateBinarySearchTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DecodeWays.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
