@@ -144,8 +144,12 @@
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="BinaryTreeInorderTraversal.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
+    <ClInclude Include="BinaryTreeZigzagLevelOrderTraversal.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="ConTructBinaryTreeFromPreorderInorder.h" />
+    <ClInclude Include="ConvertSortedArrayToBinaryTree.h" />
     <ClInclude Include="CountAndSay.h" />
     <ClInclude Include="DecodeWays.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
@@ -157,6 +161,7 @@
     <ClInclude Include="LongestCommonPrefix.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstrWithoutRepeatChar.h" />
+    <ClInclude Include="MaximumDepthOfBinaryTree.h" />
     <ClInclude Include="MaximumSubArray.h" />
     <ClInclude Include="MergeIntervals.h" />
     <ClInclude Include="MergeSortedArray.h" />
@@ -176,6 +181,7 @@
     <ClInclude Include="Sqrt_X.h" />
     <ClInclude Include="StringToInteger.h" />
     <ClInclude Include="Subsets.h" />
+    <ClInclude Include="SymmetricTree.h" />
     <ClInclude Include="ThreeSum.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="UniquePaths.h" />

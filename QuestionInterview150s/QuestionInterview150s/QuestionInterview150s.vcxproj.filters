@@ -143,5 +143,23 @@
     <ClInclude Include="DecodeWays.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="SymmetricTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeLevelOrderTraversal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeZigzagLevelOrderTraversal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximumDepthOfBinaryTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConTructBinaryTreeFromPreorderInorder.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertSortedArrayToBinaryTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
