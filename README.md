@@ -40,3 +40,8 @@ top leetcode 150 interview questions
 73. Set Matrix Zeroes
 75. Sort Colors
 79. Word Search
+80. Subsets
+81. Merge Sorted Array
+82. Decode Ways
+83. Binary Tree Inorder Traversal
+84. Validate Binary Search Tree
