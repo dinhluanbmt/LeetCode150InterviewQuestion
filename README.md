@@ -45,3 +45,9 @@ top leetcode 150 interview questions
 82. Decode Ways
 83. Binary Tree Inorder Traversal
 84. Validate Binary Search Tree
+85. Symmetric Tree
+86. Binary Tree Level Order Traversal
+87. Binary Tree Zigzag Level Order Traversal
+88. Maximum Depth of Binary Tree
+89. Construct Binary Tree From Preorder and Inorder Traversal
+90. Convert Sorted Array to Binary Search Tree
