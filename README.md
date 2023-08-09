@@ -51,3 +51,7 @@ top leetcode 150 interview questions
 88. Maximum Depth of Binary Tree
 89. Construct Binary Tree From Preorder and Inorder Traversal
 90. Convert Sorted Array to Binary Search Tree
+91. Populating Next Right Pointers in Each Node
+92. Pascal's Triangle
+93. Best Time to Buy and Sell Stock
+94. Best Time to Buy and Sell Stock II
