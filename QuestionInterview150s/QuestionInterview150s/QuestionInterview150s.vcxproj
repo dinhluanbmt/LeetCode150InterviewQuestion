@@ -143,6 +143,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
+    <ClInclude Include="BestTimeToBuySellStock.h" />
+    <ClInclude Include="BestTimeToBuySellStock2.h" />
     <ClInclude Include="BinaryTreeInorderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="BinaryTreeZigzagLevelOrderTraversal.h" />
@@ -166,8 +168,10 @@
     <ClInclude Include="MergeIntervals.h" />
     <ClInclude Include="MergeSortedArray.h" />
     <ClInclude Include="MergeTwoSortedLists.h" />
+    <ClInclude Include="PascalTriangle.h" />
     <ClInclude Include="Permutations.h" />
     <ClInclude Include="PlusOne.h" />
+    <ClInclude Include="PopulatingNextRightPointers.h" />
     <ClInclude Include="PowXN.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedArr.h" />
     <ClInclude Include="RemoveNthNodeFromEndofList.h" />
