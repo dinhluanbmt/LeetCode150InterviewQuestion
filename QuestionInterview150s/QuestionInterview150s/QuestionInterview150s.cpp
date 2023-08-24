@@ -7,6 +7,7 @@
 #include <unordered_map>
 #include <algorithm>
 #include <iomanip>
+#include <queue>
 using namespace std;
 
 struct City {
@@ -76,12 +77,19 @@ int mySqrt(int x) {
     return (int)ret;
 }
 
+//======
+
+//========
+
 int main()
 {
-    int val = 36;
-    int ret = mySqrt(val);
+  //  vector<vector<char>> board = { {'O','O','O'} ,{'O','O','O'},{'O','O','O'}};
+    string str = "catsandog";
+    vector<string> wordDict = { "cats","dog","sand","and","cat" };
 
-    std::cout << "Top 150 LeetCode Questions !\n";
+    vector<int> nums = { 3,-1,4 };
+   
+    
     //testvecmap();
     return 0;
 }
