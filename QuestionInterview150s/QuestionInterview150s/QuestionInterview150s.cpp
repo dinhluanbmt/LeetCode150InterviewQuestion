@@ -5,9 +5,12 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <unordered_set>
 #include <algorithm>
 #include <iomanip>
 #include <queue>
+#include <string>
+
 using namespace std;
 
 struct City {
@@ -78,17 +81,48 @@ int mySqrt(int x) {
 }
 
 //======
+bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    if (prerequisites.size() == 0) return true;
+    unordered_map<int, int> prereq_um;
+    unordered_map<int, int> prereq_um_rv;
+    int i;
+    for (i = 0; i < prerequisites.size(); i++) {
+        if (prerequisites[i][0] == prerequisites[i][1]) return false;
+        prereq_um[prerequisites[i][0]] = prerequisites[i][1];
+        prereq_um_rv[prerequisites[i][1]] = prerequisites[i][0];
+    }
+    for (i = 0; i < numCourses; i++) {
+        if (prereq_um.find(i) == prereq_um.end())
+        {
+            if (prereq_um_rv.find(i) != prereq_um_rv.end()) {
+                prereq_um.erase(prereq_um_rv[i]);
+            }
+        }
+    }
+    if (prereq_um.size() == 0) return true;
+    int course;
+    int bc;
+    while (prereq_um.size() != 0) {
+        course = prereq_um.begin()->second;
+        bc = course;
+        unordered_set<int> us;
+        while (prereq_um.find(course) != prereq_um.end()) {
+            if (us.insert(prereq_um.find(course)->second).second == false) return false;
+            course = prereq_um.find(course)->second;
+        }
+        prereq_um.erase(prereq_um_rv[bc]);
+    }
+    return true;
 
+}
 //========
 
 int main()
 {
   //  vector<vector<char>> board = { {'O','O','O'} ,{'O','O','O'},{'O','O','O'}};
-    string str = "catsandog";
-    vector<string> wordDict = { "cats","dog","sand","and","cat" };
+    vector<vector<int>> Vec = { {1,4},{2,4},{3,1},{3,2} };
+    bool ret = canFinish(5, Vec);
 
-    vector<int> nums = { 3,-1,4 };
-   
     
     //testvecmap();
     return 0;
