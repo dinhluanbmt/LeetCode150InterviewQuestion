@@ -70,3 +70,17 @@ top leetcode 150 interview questions
 107. Maximum Product Subarray
 108. Min Stack
 109. Intersection of Two Linked Lists
+110. Find Peak Element
+111. Fraction to Recurring Decimal
+112. Majority Element
+113. Excel Sheet Column Number
+114. Factorial Trailing Zeroes
+115. Largest Number
+116. Rotate Array
+117. Reverse Bits
+118. Number of 1 Bits
+119. House Robber
+120. Number of Islands
+121. Happy Number
+122. Count Primes
+123. Reverse Linked List
