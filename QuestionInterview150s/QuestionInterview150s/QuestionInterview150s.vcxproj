@@ -150,11 +150,14 @@
     <ClInclude Include="BinaryTreeZigzagLevelOrderTraversal.h" />
     <ClInclude Include="ClimbingStairs.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="ContainsDuplicate.h" />
     <ClInclude Include="ConTructBinaryTreeFromPreorderInorder.h" />
     <ClInclude Include="ConvertSortedArrayToBinaryTree.h" />
     <ClInclude Include="CopyListwithRandomPointer.h" />
     <ClInclude Include="CountAndSay.h" />
     <ClInclude Include="CountPrimes.h" />
+    <ClInclude Include="CourseSchedule.h" />
+    <ClInclude Include="CourseScheduleII.h" />
     <ClInclude Include="DecodeWays.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="EvaluateReversePolishNotation.h" />
@@ -168,8 +171,10 @@
     <ClInclude Include="GroupAnagrams.h" />
     <ClInclude Include="HappyNumber.h" />
     <ClInclude Include="HouseRobber.h" />
+    <ClInclude Include="ImplementTrie.h" />
     <ClInclude Include="IntersectionofTwoLinkedLists.h" />
     <ClInclude Include="JumpGame.h" />
+    <ClInclude Include="KthLargestElementinanArray.h" />
     <ClInclude Include="LargestNumber.h" />
     <ClInclude Include="LetterCombinationsOfaPhoneNumber.h" />
     <ClInclude Include="LinkedListCycle.h" />

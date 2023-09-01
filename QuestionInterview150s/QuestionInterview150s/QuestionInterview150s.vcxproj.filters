@@ -260,5 +260,20 @@
     <ClInclude Include="ReverseLinkedList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CourseSchedule.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementTrie.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseScheduleII.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KthLargestElementinanArray.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainsDuplicate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

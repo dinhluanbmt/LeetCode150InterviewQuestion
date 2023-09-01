@@ -6,6 +6,7 @@
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
+
 #include <algorithm>
 #include <iomanip>
 #include <queue>
@@ -20,6 +21,18 @@ struct City {
 // compare City by population
 bool cmpfnc(const City& a, const City& b) {
     return a.population < b.population;
+}
+
+void custom_priority_queue() {
+    vector<City> vCity = { {"city 1", 140000}, {"city 2", 100000},{"city 3", 700000},{"city 4", 500000} };
+    //lambda expression
+    priority_queue<City, vector<City>, decltype(&cmpfnc) > custom_queue(cmpfnc);
+    for (auto &c : vCity) {
+        custom_queue.push(c);
+    }
+    auto bc = custom_queue.top();
+    custom_queue.pop();// remove biggest and rearrange
+    double bg = bc.population;
 }
 
 void testvecmap() {
@@ -81,48 +94,20 @@ int mySqrt(int x) {
 }
 
 //======
-bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-    if (prerequisites.size() == 0) return true;
-    unordered_map<int, int> prereq_um;
-    unordered_map<int, int> prereq_um_rv;
-    int i;
-    for (i = 0; i < prerequisites.size(); i++) {
-        if (prerequisites[i][0] == prerequisites[i][1]) return false;
-        prereq_um[prerequisites[i][0]] = prerequisites[i][1];
-        prereq_um_rv[prerequisites[i][1]] = prerequisites[i][0];
-    }
-    for (i = 0; i < numCourses; i++) {
-        if (prereq_um.find(i) == prereq_um.end())
-        {
-            if (prereq_um_rv.find(i) != prereq_um_rv.end()) {
-                prereq_um.erase(prereq_um_rv[i]);
-            }
-        }
-    }
-    if (prereq_um.size() == 0) return true;
-    int course;
-    int bc;
-    while (prereq_um.size() != 0) {
-        course = prereq_um.begin()->second;
-        bc = course;
-        unordered_set<int> us;
-        while (prereq_um.find(course) != prereq_um.end()) {
-            if (us.insert(prereq_um.find(course)->second).second == false) return false;
-            course = prereq_um.find(course)->second;
-        }
-        prereq_um.erase(prereq_um_rv[bc]);
-    }
-    return true;
 
-}
+
 //========
 
 int main()
 {
+   // custom_priority_queue();
   //  vector<vector<char>> board = { {'O','O','O'} ,{'O','O','O'},{'O','O','O'}};
-    vector<vector<int>> Vec = { {1,4},{2,4},{3,1},{3,2} };
-    bool ret = canFinish(5, Vec);
+    vector<vector<int>> Vec = { {1,0}, {2,0},{3,1},{3,2} };
+   
+    char c = 'a';
+    char v = c + 1;
 
+   
     
     //testvecmap();
     return 0;
