@@ -84,3 +84,8 @@ top leetcode 150 interview questions
 121. Happy Number
 122. Count Primes
 123. Reverse Linked List
+124. Course Schedule
+125. Implement Trie (Prefix Tree)
+126. Course Schedule II
+127. Kth Largest Element in an Array
+128. Contains Duplicate
