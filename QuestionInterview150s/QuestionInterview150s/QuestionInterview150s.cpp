@@ -6,10 +6,12 @@
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
+#include <map>
 
 #include <algorithm>
 #include <iomanip>
 #include <queue>
+#include <stack>
 #include <string>
 
 using namespace std;
@@ -96,14 +98,25 @@ int mySqrt(int x) {
 //======
 
 
+void testm() {
+    unsigned int a = 2;
+    unsigned int b = 1;
+    int ret = a ^ b;
+    return;
+}
+
 //========
 
 int main()
 {
    // custom_priority_queue();
+    unordered_map<char, int> umci = { {'I', 1}, {'V',5},{'X',10}};
   //  vector<vector<char>> board = { {'O','O','O'} ,{'O','O','O'},{'O','O','O'}};
     vector<vector<int>> Vec = { {1,0}, {2,0},{3,1},{3,2} };
-   
+    string str = "3+2*4";
+    int n1 = INT_MAX;
+    testm();
+    
     char c = 'a';
     char v = c + 1;
 
